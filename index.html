@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Clawojak</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<style>
+		body {
+			opacity: 0;
+			transition: opacity 0.2s ease 0.2s;
+			background-color: #0affff;
+		}
+
+		.loaded body {
+			opacity: 1;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20240710182039" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- <div class="menu-open-bg"></div> -->
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" data-goto=".about" class="menu__link"><span>About</span></a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto=".roadmap" class="menu__link"><span>Roadmap</span></a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link" data-goto=".how"><span>How to buy</span></a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link" data-goto=".tokenomics"><span>Tokenomics</span></a>
+							</li>
+						</ul>
+						<a href="#" class="menu__button button"><span>BUy $Clawojak</span></a>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__hero hero">
+				<div class="hero__bg bg">
+					<img src="img/HeroBG.jpg" alt="Image" />
+				</div>
+				<div class="hero__container">
+					<h1 class="hero__title">
+						<span>GRAB THE</span>
+						<span>$Clawojak</span>
+					</h1>
+					<div class="hero__body">
+						<div class="hero__content">
+							<p class="hero__text">
+								Clawojak is the evolution of internet pain, cope, and conviction.
+							</p>
+							<div class="hero__actions">
+								<a target="_blank" href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon" class="hero__button button">
+									<span>BUy $CLAWOJAK</span>
+								</a>
+								<div class="hero__social">
+									<a target="_blank" href="https://t.me/Clawojak_eth" class="hero__social-item">
+										<img src="img/telegram.svg" alt="Icon" />
+									</a>
+									<a target="_blank" href="https://x.com/Clawojak_eth" class="hero__social-item">
+										<img src="img/x.svg" alt="Icon" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="hero__image">
+							<img src="img/crab-hero.png" alt="Crab Image" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__about about" data-watch="navigator">
+				<div class="about__bg bg">
+					<img src="img/AboutBG.jpg" alt="Image" />
+				</div>
+				<div class="about__container">
+					<h2 class="about__title" data-watch-threshold="0.85" data-watch-once data-watch>
+						<img src="img/AboutTitle.png" alt="About Title" />
+					</h2>
+					<p class="about__text" data-watch-threshold="0.6" data-watch-once data-watch>
+						Born from the depths of meme culture, Clawojak represents the grind, the emotional damage, and the relentless urge to keep swiping forward no matter what the market throws at you.
+					</p>
+				</div>
+			</section>
+			<section class="page__partners partners partners--partners">
+				<div class="partners__bg bg">
+					<img loading="lazy" src="img/Bamboo-2.jpg" alt="Image" />
+				</div>
+				<div class="partners__container">
+					<h2 class="partners__title" data-watch-threshold="0.8" data-watch-once data-watch>
+						Partners
+					</h2>
+				</div>
+				<div class="partners__slider swiper" data-watch-threshold="0.6" data-watch-once data-watch>
+					<div class="partners__wrapper swiper-wrapper">
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item swiper-slide__item--1">
+								<img src="img/partners-logo/bybit.svg" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item swiper-slide__item--2">
+								<img src="img/partners-logo/binance.svg" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item swiper-slide__item--3">
+								<img src="img/partners-logo/bybit.svg" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item swiper-slide__item--4">
+								<img src="img/partners-logo/binance.svg" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item swiper-slide__item--5">
+								<img src="img/partners-logo/bybit.svg" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item swiper-slide__item--6">
+								<img src="img/partners-logo/binance.svg" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item swiper-slide__item--7">
+								<img src="img/partners-logo/bybit.svg" alt="Logo" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__road-how road-how">
+				<div class="road-how__bg bg">
+					<img loading="lazy" src="img/RoadmapBG.jpg" alt="Image" />
+					<img loading="lazy" src="img/roadmap-bottom.png" alt="Image" />
+				</div>
+				<section class="page__roadmap roadmap" data-watch="navigator">
+					<div class="roadmap__container">
+						<h2 class="roadmap__title" data-watch-threshold="0.8" data-watch-once data-watch>
+							<img loading="lazy" src="img/RoadmapTitle.png" alt="Roadmap" />
+						</h2>
+						<div class="roadmap__items" data-watch-threshold="0.4" data-watch-once data-watch>
+							<div class="roadmap__item" data-watch-threshold="0.7" data-watch-once data-watch>
+								<h3>Step 1</h3>
+								<p>
+									Clawojak is born. Brand, memes, and identity take shape. Community gathers, lore begins, and the claws come out on social platforms. First believers unite.
+								</p>
+							</div>
+							<div class="roadmap__item" data-watch-threshold="0.7" data-watch-once data-watch>
+								<h3>Step 2</h3>
+								<p>
+									Daily meme drops, viral pushes, and community-driven content. Clawojak spreads across timelines, replies, and group chats. Engagement > everything.
+								</p>
+							</div>
+							<div class="roadmap__item" data-watch-threshold="0.7" data-watch-once data-watch>
+								<h3>Step 3</h3>
+								<p>
+									Contests, collaborations, and rewards for the most unhinged meme creators. Stronger holders, stronger culture. The community becomes the project.
+								</p>
+							</div>
+							<div class="roadmap__item" data-watch-threshold="0.7" data-watch-once data-watch>
+								<h3>Step 4</h3>
+								<p>
+									Clawojak breaks containment. Larger partnerships, unexpected integrations, and sustained meme dominance. Not just a token — a lasting internet character.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__how how" data-watch="navigator">
+					<div class="how__container">
+						<h2 class="how__title" data-watch-threshold="0.6" data-watch-once data-watch>
+							<img loading="lazy" src="img/HowTobuy.png" alt="How To Buy" />
+						</h2>
+						<div class="how__board board-how">
+							<div class="board-how__bg">
+								<img loading="lazy" src="img/HowBoard.png" alt="Image" />
+							</div>
+							<ul>
+								<li data-watch-threshold="0.8" data-watch-once data-watch>
+									<span>1</span>
+									<span>Buy Ethereum (ETH) on a centralized exchange like Coinbase, Binance, or Kraken, then send it to your self-custody wallet (MetaMask, Trust Wallet, etc.).
+									</span>
+								</li>
+								<li data-watch-threshold="0.8" data-watch-once data-watch>
+									<span>2</span>
+									<span>Open a decentralized exchange (such as Uniswap) and connect your wallet. Make sure you’re on the Ethereum network.
+									</span>
+								</li>
+								<li data-watch-threshold="0.8" data-watch-once data-watch>
+									<span>3</span>
+									<span>Paste the official $CLAWOJAK contract address, select ETH → $CLAWOJAK, set slippage if needed, and confirm the swap.
+									</span>
+								</li>
+								<li data-watch-threshold="0.8" data-watch-once data-watch>
+									<span>4</span>
+									<span>Approve the transaction, hold your $CLAWOJAK, and join the community to stay updated on memes, announcements, and future plans.
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+			<section class="page__partners partners partners--cex">
+				<div class="partners__bg bg">
+					<img loading="lazy" src="img/cexBG.jpg" alt="Image" />
+				</div>
+				<div class="partners__container">
+					<h2 class="partners__title" data-watch-threshold="0.8" data-watch-once data-watch>
+						CEX
+					</h2>
+				</div>
+				<div class="partners__slider swiper" data-watch-threshold="0.6" data-watch-once data-watch>
+					<div class="partners__wrapper swiper-wrapper">
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item">
+								<img loading="lazy" src="img/cex-binance.png" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item">
+								<img src="img/cex-binance.png" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item">
+								<img src="img/cex-binance.png" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item">
+								<img src="img/cex-crab.png" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item">
+								<img src="img/cex-binance.png" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item">
+								<img src="img/cex-binance.png" alt="Logo" />
+							</a>
+						</div>
+						<div class="partners__slide swiper-slide">
+							<a href="#" class="swiper-slide__item">
+								<img src="img/cex-crab.png" alt="Logo" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__tokenomics tokenomics" data-watch="navigator">
+				<div class="tokenomics__bg bg">
+					<img loading="lazy" src="img/tokenomicsBG.jpg" alt="Image " />
+				</div>
+				<div class="tokenomics__container">
+					<h2 class="tokenomics__title" data-watch-threshold="0.6" data-watch-once data-watch>
+						<img loading="lazy" src="img/TokenomicsTitle.png" alt="Tokenomics" />
+					</h2>
+					<div class="tokenomics__items" data-watch-threshold="0.6" data-watch-once data-watch>
+						<div class="tokenomics__item item-tokenomics" data-watch-threshold="0.8" data-watch-once data-watch>
+							<div class="item-tokenomics__bg">
+								<img loading="lazy" src="img/tok1.png" alt="Image" />
+							</div>
+							<div class="item-tokenomics__body">
+								<span class="item-tokenomics__value">0/0</span>
+								<span class="item-tokenomics__name">Tax</span>
+							</div>
+						</div>
+						<div class="tokenomics__item item-tokenomics" data-watch-threshold="0.8" data-watch-once data-watch>
+							<div class="item-tokenomics__bg">
+								<img loading="lazy" src="img/tok2.png" alt="Image" />
+							</div>
+							<div class="item-tokenomics__body">
+								<span class="item-tokenomics__value">Verified</span>
+								<span class="item-tokenomics__name">Contract</span>
+							</div>
+						</div>
+						<div class="tokenomics__item item-tokenomics" data-watch-threshold="0.8" data-watch-once data-watch>
+							<div class="item-tokenomics__bg">
+								<img loading="lazy" src="img/tok3.png" alt="Image" />
+							</div>
+							<div class="item-tokenomics__body">
+								<span class="item-tokenomics__name">Locked</span>
+								<span class="item-tokenomics__value">LP</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__ca ca">
+				<div class="ca__bg">
+					<img src="img/Bamboo-2.jpg" alt="Image" />
+				</div>
+				<div class="ca__container">
+					<div class="ca__body">
+						<span>CONTRACT ADDRESS :</span>
+						<span>0xcomingsoon</span>
+						<button class="copy-ca-btn" type="button">
+							<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+								<path d="M30.375 3.9375H12.375C11.9274 3.9375 11.4982 4.11529 11.1818 4.43176C10.8653 4.74822 10.6875 5.17745 10.6875 5.625V10.6875H5.625C5.17745 10.6875 4.74822 10.8653 4.43176 11.1818C4.11529 11.4982 3.9375 11.9274 3.9375 12.375V30.375C3.9375 30.8226 4.11529 31.2518 4.43176 31.5682C4.74822 31.8847 5.17745 32.0625 5.625 32.0625H23.625C24.0726 32.0625 24.5018 31.8847 24.8182 31.5682C25.1347 31.2518 25.3125 30.8226 25.3125 30.375V25.3125H30.375C30.8226 25.3125 31.2518 25.1347 31.5682 24.8182C31.8847 24.5018 32.0625 24.0726 32.0625 23.625V5.625C32.0625 5.17745 31.8847 4.74822 31.5682 4.43176C31.2518 4.11529 30.8226 3.9375 30.375 3.9375ZM21.9375 28.6875H7.3125V14.0625H21.9375V28.6875ZM28.6875 21.9375H25.3125V12.375C25.3125 11.9274 25.1347 11.4982 24.8182 11.1818C24.5018 10.8653 24.0726 10.6875 23.625 10.6875H14.0625V7.3125H28.6875V21.9375Z" fill="white" />
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+			<section class="page__join join">
+				<div class="join__bg bg">
+					<img loading="lazy" src="img/JoinUsBG.jpg" alt="Image" />
+				</div>
+				<div class="join__container">
+					<div class="join__items">
+						<a target="_blank" href="https://x.com/Clawojak_eth" class="join__item">
+							<img loading="lazy" src="img/x.png" alt="X Logo" />
+						</a>
+						<a target="_blank" href="https://t.me/Clawojak_eth" class="join__item">
+							<img loading="lazy" src="img/tel.png" alt="X Logo" />
+						</a>
+					</div>
+					<h2 class="join__title" data-watch-threshold="0.5" data-watch-once data-watch>
+						<span>Join</span><span>us</span><i></i>
+					</h2>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__bg bg">
+				<img loading="lazy" src="img/FooterBG.png" alt="Image " />
+			</div>
+			<div class="footer__top">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__content">
+							<div class="footer__menu">
+								<a href="#" data-goto=".about" class="footer__menu-item">Crabout</a>
+								<a href="#" data-goto=".how" class="footer__menu-item">How to buy</a>
+								<a href="#" data-goto=".roadmap" class="footer__menu-item">Roadmap</a>
+								<a href="#" data-goto=".tokenomics" class="footer__menu-item">Crabanomics</a>
+							</div>
+							<!-- <div class="footer__social">
+            <a target="_blank" href="#" class="footer__social-item">
+              <img src="img/x-footer.png" alt="Logo" />
+            </a>
+            <a target="_blank" href="#" class="footer__social-item">
+              <img src="img/insta-footer.png" alt="Logo" />
+            </a>
+            <a target="_blank" href="#" class="footer__social-item">
+              <img src="img/tel-footer.png" alt="Logo" />
+            </a>
+          </div> -->
+						</div>
+						<div class="footer__image">
+							<img loading="lazy" src="img/crab-footer.png" alt="Crab Image" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<div class="footer__bottom-box">
+						<span>2026 © ALL RIGHTS RESERVED</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240710182039"></script>
+	<script src="js/demo.js"></script>
+</body>
+
+</html>
